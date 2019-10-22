@@ -7,6 +7,6 @@
      <li><a href="mypage.php">マイページ</a></li>
      <li><a href="logout.php">ログアウト</a></li>
   </ul>
-</div>
+  </div>
 
 </header>
