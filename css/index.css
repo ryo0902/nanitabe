@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+header{
+  background:#ffd200;
+  display: flex;
+}
+.wrapper{
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 57px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  background-image: url("mesi.jpg") ;
+  background-size: cover;
+}
+
+header h1{
+  margin-bottom: 0;
+  margin-top:13px;
+}
+#top-menu{
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  width:100%;
+}
+.container h1{
+  margin: 0 0 0 10 ;
+}
+
+body {
+ margin:0 auto;
+}
+
+.top-wrapper {
+  padding: 15% 0 15% 0;
+  color: white;
+  text-align: center;
+
+}
+
+.container {
+  max-width: 1170px;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+#or{
+  margin-bottom: 15px;
+}
+.btn,.btn-login {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #239b76;
+  cursor: pointer;
+}
+
+.btn:hover,.btn-login:hover {
+  opacity: 1;
+}
+
+/*モーダル*/
+#signup,#login{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  max-width: 450px;
+  width:100%;
+  height: auto;
+  text-align: center;
+  left: 34%;
+
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+footer{
+  background-color: #333;
+  width: 100%;
+  margin:0 ;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+footer p{
+  font-size: 80%;
+  color: white;
+  text-align: center;
+  vertical-align:bottom;
+  margin:0;
+  padding-top: 39px;
+}

@@ -1,0 +1,53 @@
+body{
+  margin: 0 auto;
+}
+header{
+  background:#ffd200;
+  display: flex;
+}
+.wrapper{
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 90px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  background-image:url(paper-bg-01.jpg);
+  background-size: cover;
+}
+header h1{
+  margin-bottom: 0;
+  margin-top:13px;
+}
+
+#menu{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+  width:100%;
+}
+
+#nav{
+  display: flex;
+  list-style: none;
+  max-width: 500px;
+  width: 100%;
+  margin-right: 5px;
+  margin-left:auto;
+
+}
+#nav li {
+  margin: 0 auto;
+  border-left: medium solid #ff00ff;
+}
+a{
+  padding:5px 10px;
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+  transition: .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

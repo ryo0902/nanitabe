@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url("header.css");
+@import url("footer.css");
+
+#box{
+  background: white;
+  border: solid 3px #333;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 40px 10px;
+}
+
+.h2_kakunin{
+  text-align: center;
+}
+img{
+  max-width: 600px;
+  width:100%;
+}
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#FFD700,#f5b932);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  width: 25%;
+  padding: 10px 0;
+}
+
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+
+#recipe{
+  background:#f3f5f7;
+  border: solid 1px #333;
+  margin: 0 auto;
+  padding: 10px;
+  }
+
+#ok_button{
+  margin-top:10px
+display: inline-block;
+padding: 0.5em 1em;
+text-decoration: none;
+border-radius: 4px;
+color: #ffffff;
+background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+border-bottom: solid 3px #c58668;
+cursor: pointer;
+  }
+
+#ok_button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.cancel_button{
+  margin-top:10px
+display: inline-block;
+padding: 0.5em 1em;
+text-decoration: none;
+border-radius: 4px;
+color: #ffffff;
+background-image: linear-gradient(45deg, #0033FF 0%, #000099 100%);
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+border-bottom: solid 3px #c58668;
+cursor: pointer;
+}
+
+.cancel_button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+.button_wrapper{
+  margin:10px;
+  text-align: center;
+}

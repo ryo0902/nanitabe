@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.sidebar{
+  margin-right: 0;
+  max-width: 210px;
+  margin-left: auto;
+
+}
+.category_box,.budget_box,.difficulty_box{
+  margin-top: 10px;
+  background: white;
+  border: solid 1px #333;
+  overflow: hidden;
+}
+
+.sidebar_h3{
+  color:#FF0000;
+  background: #FFCC33;
+  margin:0;
+  margin-bottom: 3px;/*下のバーとの余白*/
+
+}
+
+.category_box  ul{
+    padding: 0;
+    margin:0;
+    position: relative;
+  }
+a{
+  display: block;
+}
+.category_box li {
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;/*左側の線*/
+    background: #f1f8ff;/*背景色*/
+    margin-bottom: 3px;/*下のバーとの余白*/
+     line-height: 1.5;
+    padding: 0.2em;
+    list-style-type: none!important;/*ポチ消す*/
+  }
+
+  .search_submit {
+    display: inline-block;
+    padding: 0.1em 1em;
+    text-decoration: none;
+    color: #2d8fdd;
+    border: solid 2px #2d8fdd;
+    border-radius: 3px;
+    transition: .4s;
+    margin-bottom: 2px;
+    background: white;
+  }
+
+  .search_submit:hover {
+    background: #2d8fdd;
+    color: white;
+  }
+  .search_button{
+    text-align: center;
+  }
+.meter{
+text-align: center;}

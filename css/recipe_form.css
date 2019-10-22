@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("header.css");
+@import url("footer.css");
+body{
+  background-image:url(paper-bg-01.jpg);
+  margin: 0 auto;
+}
+.wrapper h2{
+ text-align:center;
+}
+
+#recipe_box{
+  background: white;
+  border: solid 3px #333;
+  width: 60%;
+  max-width: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 40px 10px;
+}
+
+.recipe_form_item{
+  display: flex;
+  margin: 0;
+  padding:0;
+
+}
+.recipe_form_item p{
+  margin-bottom: 2px;
+  padding-right: 5px;
+}
+.hissu{
+  top: -3.5em;
+ left: 0;
+  color:#fff;
+  background: #f66;
+  border: solid #f00 1px ;
+  border-radius: 5px;
+  padding:0 5px;
+}
+.ninni{
+  top: -3.5em;
+  left: 0;
+  color:#FFFFEE	;
+  background: #00BFFF;
+  border: solid #0000CD 1px ;
+  border-radius: 5px;
+  padding:0 5px;
+}
+input{
+  margin-bottom: 10px;
+}
+
+#submit_button {
+  margin-top:10px
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #c58668;
+  cursor: pointer;
+
+}
+
+#submit_button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+#form_button{
+  text-align: center;
+}

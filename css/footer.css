@@ -1,0 +1,31 @@
+@charset "UTF-8";
+footer{
+  background-color: #333;
+  width: 100%;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+footer p{
+  font-size: 80%;
+  color: white;
+  text-align: center;
+  vertical-align:bottom;
+  margin-bottom: 0;
+}
+.footer_nav{
+  max-width: 500px;
+  width:100%;
+  text-align: center;
+  display:flex;
+  list-style:none;
+  margin: 0 auto;
+  padding:0;
+}
+.footer_nav li{
+  width:25%;
+  margin: 0 auto;
+}
+
+.footer_nav a{
+  color: white;
+}
