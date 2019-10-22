@@ -32,7 +32,7 @@ try{
 	}
 	require("php/category_name_array.php");
 }catch (Expeption $e){
-  echo "エラー発生:<br>";//.htmlspecialchars($e->getMessage(),  ENT_QUOTES,'UTF-8')."
+  echo "エラー発生:<br>";
     die();
 }
  ?>

@@ -21,7 +21,7 @@ try {
   $dbh = null;
 }
 } catch (Exception $e) {
-  echo "エラー発生";// .htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8'). "<br>";
+  echo "エラー発生";
   echo "<a href='index.php'>トップページに戻る</a>";
   die();
 }

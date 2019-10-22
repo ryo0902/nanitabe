@@ -18,7 +18,7 @@ if (!isset($_SESSION['user_name']) && !isset($_SESSION['id'])) {
 
   $dbh = null;
 }catch (Expeption $e){
-  echo "エラー発生:<br>";//.htmlspecialchars($e->getMessage(),  ENT_QUOTES,'UTF-8')."<br>";
+  echo "エラー発生";
     die();
 }
  ?>

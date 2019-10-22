@@ -2,8 +2,8 @@
   <div class="category_box">
     <h3 class="sidebar_h3">カテゴリーから探す</h3>
     <ul>
-      <?php  require("php/category_name_array.php");?>
-      <?php foreach($category as $key=> $value): ?>
+      <?php require("php/category_name_array.php"); ?>
+      <?php foreach($category_name as $key=> $value): ?>
       <li>
         <a href='<?php echo "category.php?category=".htmlspecialchars($key,ENT_QUOTES, 'UTF-8'). ""; ?>'>
           <?php echo $value ; ?>

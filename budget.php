@@ -24,7 +24,7 @@ try {
     }
   }
 } catch (Exception $e) {
-  echo "エラー発生: " . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') . "<br>";
+  echo "エラー発生: " ;
   die();
 }
  ?>
